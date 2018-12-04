@@ -39,7 +39,7 @@ def ip_scan(ip):
 
 if __name__ == '__main__':
     lock = _thread.allocate_lock()
-    ipadd = ['192.168.0.1']
+    ipadd = ['192.168.0.1','192.168.0.2']
     for ip in ipadd:
         ip_scan(ip)
         #print(ip)
